@@ -3,7 +3,7 @@
 ## Functions
 The function [json_extract_1](json_extract_1.sql) returns the value matching the first key provided within JSON data
 
-The function [json_extract_search](json_extract_search.sql) returns the value matching the first key provided within JSON data
+The function [json_extract_search](json_extract_search.sql) returns the value matching the return key that matches the search key and value provided within the same JSON object within JSON data
 
 These functions were designed for MySQL 5.6 as it does not include built-in functions to parse JSON data
 
